@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "sourceMap": true,
+    "types": ["node", "mocha"]
+  },
+  "include": ["src/**/*.ts"]
+}
